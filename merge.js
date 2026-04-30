@@ -9,7 +9,7 @@ try{new Function(js);console.log('JS OK')}catch(e){console.log('ERROR:',e.messag
 var st='<!DOCTYPE html>\n<html lang=zh-CN>\n<meta charset=UTF-8>\n<meta name=viewport content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">\n<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">\n<meta http-equiv="Pragma" content="no-cache">\n<meta http-equiv="Expires" content="0">\n<title>齐大植物大战僵尸</title>\n<style>'+css+'</style>\n</head>\n<body>';
 var bm=html.match(/<body>([\s\S]*)<\/body>/);
 if(bm)st+=bm[1];
-st=st.replace(/<script[^>]*><\/script>\n?/g,'');
+st=st.replace(/<script[\s\S]*?<\/script>/g,'');
 st+='\n<script>'+js+'</script>\n</body>\n</html>';
 fs.writeFileSync('齐大植物大战僵尸.html',st,'utf8');
 console.log('DONE:',st.length,'bytes');
