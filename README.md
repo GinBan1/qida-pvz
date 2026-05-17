@@ -2,6 +2,8 @@
 
 一个以齐齐哈尔大学为主题的网页版植物大战僵尸同人小游戏，基于 Canvas 与原生 JavaScript，实现关卡挑战与无尽生存，并包含排行榜与昵称系统。
 
+在线体验：[https://ginban1.github.io/qida-pvz/](https://ginban1.github.io/qida-pvz/)
+
 ## 功能特色
 - 关卡模式（多难度关卡）
 - 无尽生存模式
