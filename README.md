@@ -24,4 +24,4 @@
 - `data/`：本地数据文件（运行后自动创建）
 
 ## 许可
-尚未声明开源协议，如需开源发布请补充 LICENSE。
+MIT License，详见 [LICENSE](LICENSE)。
