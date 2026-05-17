@@ -15,7 +15,7 @@
    ```bash
    node server.js
    ```
-3. 打开浏览器访问：`http://localhost:3000`
+3. 打开浏览器访问：`https://ginban1.github.io/qida-pvz/`
 
 ## 目录结构
 - `齐大植物大战僵尸.html`：主页面（默认入口）
